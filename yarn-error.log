@@ -1,0 +1,52 @@
+Arguments: 
+  D:\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js add nanoid
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\Microsoft VS Code;D:\Git\cmd;D:\nodejs\node_global\node_modules\yarn\bin;D:\nodejs\node_global\bin;C:\Users\SydZh\AppData\Local\Microsoft\WindowsApps;D:\nodejs\node_global;D:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'D:\nodejs\yarn\cache\v6\npm-glob-parent-6.0.2-6d237d99083950c79290f24c7642a3de9a28f9e3-integrity\node_modules\glob-parent\package.json' -> 'E:\Code\SKJ\node_modules\tailwindcss\node_modules\glob-parent\package.json'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "",
+    "scripts": {
+      "dev": "umi dev",
+      "build": "prisma generate && umi build",
+      "postinstall": "umi setup",
+      "setup": "umi setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@prisma/client": "^4.4.0",
+      "@types/bcryptjs": "^2.4.2",
+      "@types/jsonwebtoken": "^8.5.9",
+      "bcryptjs": "^2.4.3",
+      "jsonwebtoken": "^8.5.1",
+      "prisma": "^4.4.0",
+      "umi": "^4.0.24"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "typescript": "^4.1.2",
+      "@umijs/plugins": "^4.0.24",
+      "tailwindcss": "^3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
